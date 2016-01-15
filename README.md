@@ -1,5 +1,5 @@
 # vbus-arduino-domoticz
-Readout of VBus devices by Arduino and transfer of data to Domoticz
+Readout of VBus devices by Arduino and transfer of data to Domoticz home automation software.
 
 ## Goal:
 Readout the Resol VBus interface of an Oranier Aquacontrol III (= rebranded Resol DeltaTherm FK).
