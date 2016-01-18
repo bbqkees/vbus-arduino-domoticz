@@ -71,3 +71,7 @@ Also, the interface is not documented that well at the moment.
 #### Additional credits
 Sketch is based on the VBus library from 'Willie' from the Mbed community.
 
+#### Legal Notices
+RESOL, VBus, VBus.net and others are trademarks or registered trademarks of RESOL - Elektronische Regelungen GmbH.
+
+All other trademarks are the property of their respective owners.
