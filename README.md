@@ -50,7 +50,7 @@ and find your controller. In the list you can see which information the controll
 You need the controller ID and offset, bitsize and names of all the variables.
 Now use the examples for the DT5 and FK in VBusRead() to create a new entry for your own controller.
 This might be not that easy.
-Do not forget to declare your new variables too.
+Do not forget to properly declare your new variables too.
 
 If you have tested it and it works, please add a Pull request so I can integrate your controller here.
 
@@ -59,7 +59,7 @@ No. First try it yourself. But if you fail, you can always ask.
 
 ### Is this sketch the pinnacle of proper programming?
 Not by any means, but it works.
-If you have any remark or improvement, let the autor know.
+If you have any remark or improvement, let the author know.
 
 ### Should the author have made a library instead of a complete sketch?
 Maybe, but this allows for better modification by myself or others. Also depending on the Arduino you need to set another Serial port. This is easier to do in the sketch.
