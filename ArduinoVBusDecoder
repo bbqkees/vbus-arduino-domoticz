@@ -14,6 +14,10 @@
  * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  * 
+ * Legal Notices
+ * RESOL, VBus, VBus.net and others are trademarks or registered trademarks of RESOL - Elektronische Regelungen GmbH.
+ * All other trademarks are the property of their respective owners.
+ * 
  * 
  * * What does it do?
  * This sketch reads the VBus data and depending on the format of the controller decodes
