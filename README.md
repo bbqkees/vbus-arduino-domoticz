@@ -7,7 +7,7 @@ Readout the Resol VBus interface of an Oranier Aquacontrol III (= rebranded Reso
 Transfer of data via ethernet to Domoticz home automation software.
 
 ## What does it do?
-This sketch reads the VBus data and depending on the format of the controller decodes the data and puts in in variables.
+This sketch reads the VBus data and depending on the format of the controller decodes the data and puts it in variables.
 You can then send the values via HTTP GET requests to Domoticz (Or do whatever you want with it).
 
 ## Controller support
@@ -44,20 +44,30 @@ You can use f.i. AltSoftSerial() instead of Serial1. This sketch should work wit
 If you do use it, you need to put the VBus input on the correct softserial pin!
 If you do not need the debugging option, use 'normal' Serial.
 
-### My controller is not in your list, how can I add it?
+### My controller is not in the list, how can I add it?
 Go to http://danielwippermann.github.io/resol-vbus/vbus-packets.html
 and find your controller. In the list you can see which information the controller sends.
 You need the controller ID and offset, bitsize and names of all the variables.
 Now use the examples for the DT5 and FK in VBusRead() to create a new entry for your own controller.
 This might be not that easy.
+Do not forget to declare your new variables too.
 
 If you have tested it and it works, please add a Pull request so I can integrate your controller here.
 
+### Can the author add my controller?
+No. First try it yourself. But if you fail, you can always ask.
+
 ### Is this sketch the pinnacle of proper programming?
 Not by any means, but it works.
+If you have any remark or improvement, let the autor know.
 
-### Should I have made a library instead of a complete sketch?
+### Should the author have made a library instead of a complete sketch?
 Maybe, but this allows for better modification by myself or others. Also depending on the Arduino you need to set another Serial port. This is easier to do in the sketch.
 
-### Now where is the code?
-It will follow soon. 
+### Why has been opted for HTTP GET requests instead of MQTT?
+The author has only been very shortly aware of MQTT support in Domoticz.
+Also, the interface is not documented that well at the moment.
+
+#### Additional credits
+Sketch is based on the VBus library from 'Willie' from the Mbed community.
+
