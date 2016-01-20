@@ -8,7 +8,8 @@ Transfer of data via ethernet to Domoticz home automation software.
 
 ## What does it do?
 This sketch reads the VBus data and depending on the format of the controller decodes the data and puts it in variables.
-You can then send the values via HTTP GET requests to Domoticz (Or do whatever you want with it).
+You can then send the values via HTTP GET requests to Domoticz or do whatever you want with it.
+Usage is not limited to Domoticz, you can extract the decoding part for other purposes.
 
 ## Controller support
 Currently supports the following controllers:
