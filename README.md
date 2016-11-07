@@ -11,6 +11,9 @@ This sketch reads the VBus data and depending on the format of the controller de
 You can then send the values via HTTP GET requests to Domoticz or do whatever you want with it.
 Usage is not limited to Domoticz, you can extract the decoding part for other purposes.
 
+## Is it stable?
+This sketch has been running for more than one year (since October 2015) without any problem whatsoever.
+
 ## Controller support
 Currently supports the following controllers:
 * Resol DeltaTherm FK (0x5611)
