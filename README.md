@@ -68,9 +68,10 @@ If you have any remark or improvement, let the author know.
 ### Should the author have made a library instead of a complete sketch?
 Maybe, but this allows for better modification by myself or others. Also depending on the Arduino you need to set another Serial port. This is easier to do in the sketch.
 
-### Why has been opted for HTTP GET requests instead of MQTT?
-The author has only been very shortly aware of MQTT support in Domoticz.
-Also, the interface is not documented that well at the moment.
+### How about MQTT instead of HTTP GET requests?
+This is still on my to do list.
+I started with the HTTP GET request because I was unaware of MQTT and also the MQTT support in Domoticz lacks proper documentation.
+But the HTTP GET requests are working just fine for over a year now.
 
 #### Additional credits
 Sketch is based on the VBus library from 'Willie' from the Mbed community.
