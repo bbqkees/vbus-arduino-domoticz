@@ -1,5 +1,7 @@
 /* VBus decoder to Domoticz sketch for Arduino
- * * Version 1.0 - January 2016
+ * * 
+ * Version 1.1 - August 2017 - Added Joule / Resol Deltasol C (credits: Fatbeard)
+ * Version 1.0 - January 2016
  * 
  * Copyright (c) 2016 - 'bbqkees' @ www.domoticz.com/forum
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software
@@ -30,6 +32,7 @@
  * * Currently supports the following controllers:
  * -Resol DeltaTherm FK (a.k.a. Oranier Aquacontrol III) 
  * -Conergy DT5
+ * -Joule / Resol Deltasol C
  * If it does not find any of the supported controllers,
  * it will try to decode the first 2 frames which usually contain Temp 1 to 4.
  * 
