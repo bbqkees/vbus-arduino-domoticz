@@ -12,7 +12,7 @@ You can then send the values via HTTP GET requests to Domoticz or do whatever yo
 Usage is not limited to Domoticz, you can extract the decoding part for other purposes.
 
 ## Is it stable?
-This sketch has been running for more than one year (since October 2015) without any problem whatsoever.
+This sketch has been running continuously on an Arduino since October 2015 without any problem whatsoever.
 
 ## Controller support
 Currently supports the following controllers:
