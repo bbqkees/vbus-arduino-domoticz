@@ -723,10 +723,10 @@ bool VBusRead() {
 
         Septet = Buffer[F + FSeptet];
         InjectSeptet(Buffer, F, 4);
-
-        PumpSpeed1 = (Buffer[F] );
-        PumpSpeed2 = (Buffer[F + 1]);
-        //ErrorMask  = Buffer[F + 2]; This is the notification
+    
+	    Relay1 = (Buffer[F] );
+        Relay2 = (Buffer[F + 1]);
+        ErrorMask  = Buffer[F + 2]; //This is the notification
         Scheme    =  Buffer[F + 3];
 
         //*******************  Frame 4  *******************
