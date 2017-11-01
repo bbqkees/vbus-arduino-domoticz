@@ -26,7 +26,7 @@ If it does not find any of the supported controllers, it will try to decode the 
 ## Hardware:
 * VBus RX interface circuit
 * Arduino Mega + Wiznet Ethernet Shield
-* Raspberry Pi with Domoticz
+* Device running your Domoticz
 
 VBus is NOT RS485. So you need a specific converter circuit to make the VBus data readable for the Arduino UART.
 See f.i. [Here](https://piamble.wordpress.com/tag/vbus/).
@@ -59,23 +59,27 @@ Do not forget to properly declare your new variables too.
 
 If you have tested it and it works, please add a Pull request so I can integrate your controller here.
 
-### Can the author add my controller?
+### Can I add your controller?
 No. First try it yourself. But if you fail, you can always ask.
 
 ### Is this sketch the pinnacle of proper programming?
 Not by any means, but it works.
 If you have any remark or improvement, let the author know.
 
-### Should the author have made a library instead of a complete sketch?
+### Should I have made a library instead of a complete sketch?
 Maybe, but this allows for better modification by myself or others. Also depending on the Arduino you need to set another Serial port. This is easier to do in the sketch.
 
 ### How about MQTT instead of HTTP GET requests?
 This is still on my to do list.
-I started with the HTTP GET request because I was unaware of MQTT and also the MQTT support in Domoticz lacks proper documentation.
-But the HTTP GET requests are working just fine for over a year now.
+I started with the HTTP GET request because I was unaware of MQTT and also at the time the MQTT support in Domoticz lacked proper documentation.
+But the HTTP GET requests are working just fine for about 2 years now.
 
 #### Additional credits
 Sketch is based on the VBus library from 'Willie' from the Mbed community.
+
+#### Which license applies here?
+The MIT License. This means that you can do whatever you want with my code! No need to ask me.
+It is always nice however to publish your version to Github to help others.
 
 #### Legal Notices
 RESOL, VBus, VBus.net and others are trademarks or registered trademarks of RESOL - Elektronische Regelungen GmbH.
