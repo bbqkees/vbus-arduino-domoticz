@@ -29,7 +29,9 @@ If it does not find any of the supported controllers, it will try to decode the 
 * Device running your Domoticz
 
 VBus is NOT RS485. So you need a specific converter circuit to make the VBus data readable for the Arduino UART.
-See f.i. [Here](https://piamble.wordpress.com/tag/vbus/).
+I used the following circuit from [Piamble](https://piamble.wordpress.com/tag/vbus/):
+![VBUS schematic](https://github.com/bbqkees/vbus-arduino-domoticz/blob/master/resol-circuit-diagram-v3.jpg?raw=true)
+I only removed the final voltage divider after the comparator and put a series resistor there instead because the Arduino has a 5V compatible UART.
 
 This sketch uses the Arduino Mega and the Wiznet 5100 ethernet shield.
 You can also use another Arduino like the Uno but that one only has one hardware serial port.
