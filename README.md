@@ -79,6 +79,8 @@ But the HTTP GET requests are working just fine for about 2 years now.
 
 #### Additional credits
 Sketch is based on the VBus library from 'Willie' from the Mbed community.
+Also have a look at the [Github of Daniel Wippermann](https://github.com/danielwippermann), the lead software engineer of Resol. He has written lots of useful code for you to use in interfacing with Resol equipment.
+
 
 #### Which license applies here?
 The MIT License. This means that you can do whatever you want with my code! No need to ask me.
