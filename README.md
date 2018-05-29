@@ -70,7 +70,8 @@ Not by any means, but it works.
 If you have any remark or improvement, let the author know.
 
 ### Should I have made a library instead of a complete sketch?
-Maybe, but this allows for better modification by myself or others. Also depending on the Arduino you need to set another Serial port. This is easier to do in the sketch.
+Maybe, but this allows for better modification by myself or others. Also depending on the Arduino you need to set another Serial port. This is easier to do in the sketch.<br>
+If you want to use it as a library have a look here [https://github.com/FatBeard/vbus-arduino-library].<br>
 
 ### How about MQTT instead of HTTP GET requests?
 This is still on my to do list.
